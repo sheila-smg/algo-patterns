@@ -1,67 +1,64 @@
-# Algo Patterns
+# Binary Search
 
-This repository is a personal project designed to deepen my understanding of the core algorithmic patterns used to build efficient solutions.  
-The aim is to practice structured problem-solving, refine intuition about complexity, and develop clean implementations that scale well.
+This folder focuses on the Binary Search pattern, a foundational technique for eliminating large portions of the search space with each step.  
+It is one of the most important algorithmic tools for achieving logarithmic time complexity and appears frequently across technical interviews.
 
-Each folder focuses on one family of patterns and contains:
+Binary Search is not only about locating a value in a sorted array.  
+It forms the basis for multiple structural problem types, including monotonic condition searches, rotated arrays, peak finding, and optimization problems that require searching over the answer space.
+
+Each file in this folder includes:
 - A clear conceptual overview  
-- Representative problems  
-- A straightforward baseline solution  
-- An optimized implementation  
-- Notes summarizing the key insights behind the improvement  
-
-Rather than collecting isolated exercises, this project organizes ideas into reusable mental frameworks that help me reason about algorithms with clarity and precision.
+- A simple baseline implementation  
+- Variants commonly used in real problems  
+- Notes describing the structural insights behind each solution  
 
 
 ## Purpose
 
-The goal of this project is to explore how different algorithmic strategies behave, why certain approaches are more efficient than others, and how small design decisions affect performance.
+The goal of this section is to understand how Binary Search behaves, when it applies, and why it is more efficient than linear scanning.
 
 This includes:
-- Recognizing structure in problems  
-- Understanding time and space complexities  
-- Transitioning from brute-force ideas to elegant, optimized patterns  
-- Building modular, readable code that reflects strong algorithmic thinking  
+- Identifying problems that can be solved by binary search even when no array is explicitly sorted  
+- Recognizing monotonic structures  
+- Understanding the mechanics behind adjusting the search boundaries  
+- Writing clean, safe, iterative implementations  
+- Developing intuition for derived patterns like Binary Search on Answer  
 
 
-## Patterns Included
+## Variants Included
 
-The repository is structured by core families of algorithmic techniques:
+The folder contains several of the most useful binary-search-based problem types:
 
-algo-patterns/
-sliding_window/
-fixed_window/
-variable_window/
-frequency_window/
-two_pointers/
-prefix_sum/
-hashing/
-binary_search_on_answer/
+binary_search/  
+classic_binary_search/  
+first_last_occurrence/  
+rotated_sorted_array/  
+peak_element/  
+binary_search_on_answer/  
 
-
-More categories may be added over time as the project grows.
+More subpatterns may be added over time as the toolkit expands.
 
 
-## How to Use This Repository
+## How to Use This Folder
 
-1. Choose a pattern folder  
-2. Start from the conceptual notes  
-3. Read the baseline solution to understand the simple idea  
-4. Explore the optimized version and its reasoning  
-5. Reflect on complexity differences and structural insights  
+1. Start with the conceptual notes in the classic version  
+2. Review the baseline implementation  
+3. Explore variants that apply the same idea in different structural settings  
+4. Compare boundary-adjustment logic across problems  
+5. Reflect on how monotonic behavior enables efficient searching  
 
-The intention is to learn not only how solutions work, but why they work.
+The intention is to build a strong mental model of *where* and *why* binary search applies, not just how to code it.
 
 
 ## Roadmap
 
-- Add more problems per pattern  
-- Add small visual explanations or diagrams where useful  
-- Add unit tests for each solution  
-- Add complexity summaries and quick-reference notes  
-- Expand into additional algorithmic families (heaps, intervals, stacks, DP, etc.)
+- Add more representative problems for each variation  
+- Add detailed walkthroughs for boundary decisions  
+- Add small diagrams for visual intuition  
+- Add unit tests  
+- Expand into more patterns derived from monotonicity and search over answers  
 
 
-## About This Project
+## About This Section
 
-Created as part of my ongoing practice to write better algorithms, understand efficiency deeply, and organize knowledge in structured way.
+Created as part of my continuing effort to deepen algorithmic intuition, refine implementation patterns, and maintain a structured, scalable organization of problem-solving techniques.
